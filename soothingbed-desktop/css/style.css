@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 0 100px;
+}
+.logo-img{
+    height: 99px;
+    width: 230px;
+}
+.border-div{
+    border-width: 1px;
+    border-color: #e1e1e1;
+    border-style: solid;
+}
+h4{
+    color: #557c98;
+    font-size: 16px;
+    margin-top: 30px;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.check-marks{
+    display: inline-block;
+}
+.row-first-section{
+    margin:0 40px;
+}
+.row-btn{
+    margin-top: 15px;
+}
+.check-content{
+    font-size: 14px;
+    color: #999999;
+}
+.star{
+    color: orange;
+}
+.tik{
+    color: green;
+    background-color: green;
+}
+.tako{
+    height: 50px;
+    width: 50px;
+}
+.user{
+    margin: 0;
+}
+.user-name{
+   text-align: start;
+   vertical-align:auto;
+}
+.btn1{
+    border: none;
+    padding: 6px 20px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+.btn-order{
+    border: none;
+    border-radius: 30px;
+    background-color: #2dbe7f;
+    padding: 10px 50px;
+    color: white;
+}
+.img-bnr{
+    width: 600px;
+}
+.card{
+    text-align: center;
+}
+.row-threedogs{
+    background-color: #557c98;
+    padding: 50px 150px;
+    width: 100%;
+}
+.w-50{
+    background-color: #e8eeed;
+    padding: 50px 0;
+}
+.sizes{
+    color: #4d748d;
+    font-size: 20px;
+}
+.dogs-and-sizes{
+    background-color: #e8eeed;
+    padding: 70px 50px;
+}
+.dog-breed{
+    font-size: 16px;
+    color: #a9aead;
+}
+.about-order{
+    position: relative;
+    height: 1000px;
+}
+.mainus{
+    color: red;
+}
+.palas{
+    color: red;
+}
+.position-absolute{
+    position: absolute;
+    padding: 30px 20px;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 650px;
+    padding: 50px 30px;
+}
+.bdr-left{
+    border-left: 1px solid black;
+}
+@media (max-width: 480px){
+    header{
+        display: none;
+    }
+    p, h1{
+        text-align: center;
+    }
+   section .row-first-section{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    section .thumbnail-review .col-12 .row{
+        display: none;
+    }
+    .row-threedogs{
+        width: 100%;
+        margin: auto;
+        padding: 0px 0px;
+
+    }
+    img .rounded-cicle{
+        width: auto;
+    }
+    .threedog-container{
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+    .col-sm-12{
+        width: 100%;
+        font-size: 20px;
+    }
+    .w-auto .order-btn .col-md-3{
+        text-align: center;
+    }
+    .w-auto .order-btn .col-md-9{
+        text-align: center;
+        display: block;
+    }
+    .dogs-and-sizes .col-xs-1{
+        text-align: left;
+    }
+    .dogs-and-sizes .line{
+        display: none;
+    }
+    .about-order{
+        height: 1100px;
+        width: 100%;
+    }
+    .about-order .position-absolute{
+        width: 100%;
+        height: auto;
+        top: 50%;
+        left: 50%;
+    }
+    .about-order .position-absolute .que-ans p{
+        text-align: start;
+        padding-top: 10px;
+    }
+    .card-kutru .row .star-rating{
+        text-align: center;
+    }
+    footer .row .col-md-6{
+        text-align: center;
+    }
+}
